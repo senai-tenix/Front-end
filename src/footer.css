@@ -1,0 +1,25 @@
+footer {
+    background-color: #f1f1f1; /* Cor de fundo do footer */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    position: relative; /* Para garantir que o footer fique na parte inferior */
+}
+ 
+.footer-content {
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+ 
+.social-links {
+    margin-top: 10px; /* Espaçamento acima dos links sociais */
+}
+ 
+.social-links a {
+    margin: 0 10px; /* Espaçamento entre os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #007BFF; /* Cor dos links */
+}
+ 
+.social-links a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}

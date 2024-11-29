@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tenix</title>
+<link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+<header class="wrapper">
+<h1>Tenix</h1>
+</header>
+<div class="linha"></div>
+ 
+    <div class="retangulo">        
+<button class="novo">Adicionar tênis</button>
+</div>
+ 
+    <div class="container" id="produtosContainer"></div>
+ 
+    <!-- Popup para Modificar um Produto -->
+<div id="popup" class="popup" style="display:none;">
+<div class="popup-content">
+<h3>Modificar produto</h3>
+<label for="novoNome">Novo nome do produto:</label> <br>
+<input type="text" id="novoNome" placeholder="Novo nome do produto"> <br>
+<label for="novoPreco">Novo preço do produto:</label> <br>
+<input type="text" id="novoPreco" placeholder="Novo preço do produto"> <br>
+<label for="novoImagem">Nova imagem (URL):</label> <br>
+<input type="text" id="novoImagem" placeholder="Nova imagem (URL)"> <br>
+<br>
+<button id="salvarButton" class="salvar">Salvar</button>
+<button id="closeButton" class="fechar">Fechar</button>
+</div>
+</div>
+ 
+    <!-- Popup para Adicionar um Novo Produto -->
+<div id="addPopup" class="popup" style="display:none;">
+<div class="popup-content">
+<h3>Adicionar produto</h3>
+<label for="addNome">Nome do produto:</label> <br>
+<input type="text" id="addNome" placeholder="Nome do produto"> <br>
+<label for="addPreco">Preço do produto:</label> <br>
+<input type="text" id="addPreco" placeholder="Preço do produto"> <br>
+<label for="addImagem">Imagem (URL):</label> <br>
+<input type="text" id="addImagem" placeholder="Imagem (URL)"> <br>
+<br>
+<button id="salvarNovoButton" class="salvar">Salvar</button>
+<button id="closeAddButton" class="fechar">Fechar</button>
+</div>
+</div>
+ 
+    <footer>
+<div class="footer-content">
+<p>&copy; Tenix. <br> Desenvolvimento de sistemas <br> Senai Santo Amaro</p>
+</div>
+</div>
+</footer>
+ 
+   
+<script src="./script.js"></script>
+</body>
+</html>
